@@ -1,8 +1,8 @@
 {
     "id": "ba7d1938-81b7-4018-be0a-61093123521b",
     "name": "NewReclic Deployment Marker",
-    "friendlyName": "NewReclic Deployment Marker",
-    "description": "NewReclic Deployment Marker",
+    "friendlyName": "NewReclic Deployment Marker with Rest",
+    "description": "NewReclic Deployment Marker with Rest",
     "helpMarkDown": "",
     "category": "Build",
     "visibility": [
@@ -12,13 +12,13 @@
         "Agent",
         "DeploymentGroup"
     ],
-    "author": "Noman Sadiq",
+    "author": "Noman Sadiq w/Vahit Ustaoglu",
     "version": {
         "Major": 1,
         "Minor": 3,
         "Patch": 5
     },
-    "instanceNameFormat": "NewReclic Deployment Marker",
+    "instanceNameFormat": "NewReclic Deployment Marker ",
     "groups": [
         {
             "name": "advanced",
@@ -27,14 +27,14 @@
         }
     ],
     "inputs": [
-        {
-            "name": "APIKey",
-            "type": "string",
-            "label": "NewRelic API Key",
-            "defaultValue": "",
-            "required": true,
-            "helpMarkDown": "API Key to communicate your NewRelic Account"
-        },
+//        {
+//            "name": "APIKey",
+//            "type": "string",
+//            "label": "NewRelic API Key",
+//            "defaultValue": "",
+//            "required": true,
+//            "helpMarkDown": "API Key to communicate your NewRelic Account"
+//        },
         {
             "name": "APPID",
             "type": "string",
