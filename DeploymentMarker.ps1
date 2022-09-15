@@ -20,7 +20,7 @@ Function DPMARKER()
 
     $header = @{
 
-    "X-Api-Key" = $env:NewRelicAPIKey
+    "X-Api-Key" = "NRAK-FVQKUHZC7Q9731CBQS7MT0XAZJW"
 
     }
 
